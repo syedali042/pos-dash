@@ -1,10 +1,9 @@
-import Sidebar from "./Sidebar";
-import Topbar from "./Topbar";
+import Sidebar from './Sidebar';
+import Topbar from './Topbar';
 const DashboardHeader = () => {
-
-    return (
-        <>
-            <div id="loading" onMouseOver={(event)=>{
+  return (
+    <>
+      {/* <div id="loading" onMouseOver={(event)=>{
                 setTimeout(()=>{
                     
                     event.target.style.display = 'none';
@@ -12,11 +11,11 @@ const DashboardHeader = () => {
             }}>
                 <div id="loading-center">
                 </div>
-            </div>
-            <Sidebar />
-            <Topbar />
-        </>
-    )
-}
+            </div> */}
+      <Sidebar />
+      <Topbar />
+    </>
+  );
+};
 
 export default DashboardHeader;
